@@ -1,0 +1,18 @@
+
+Git-Befehle:
+
+g init
+git add "file name and extention"    or git add .  // to add several files
+git status
+git commit -m "commenttttttt"
+git cat "file name and extention" // to read content of a file
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git remote origin
+git pull   // from remote to local
+git push -u  origin master
+----------------
+// for branches:
+git branch firstbranch  // to make new branch in a branch. "firstbranch is name of new example branch"
+git checkout  firstbranch  // to go to firstbranch
